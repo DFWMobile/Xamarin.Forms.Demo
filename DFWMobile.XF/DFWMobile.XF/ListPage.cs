@@ -21,35 +21,10 @@ namespace DFWMobile.XF
             {
                 RowHeight = 60
             };
-            listView.ItemsSource = GetTwitterHandles();
+            listView.ItemsSource = App.TwitterHandles;
             listView.ItemTemplate = new DataTemplate(typeof(TwitterHandleCell));
 
             Content = listView;
-        }
-
-        private List<TwitterHandle> GetTwitterHandles()
-        {
-            return new List<TwitterHandle>
-            {
-                new TwitterHandle()
-                {
-                    DisplayName = "No Kia",
-                    Twitter = "@Nokia",
-                    ImageUri = "https://pbs.twimg.com/profile_images/459664041934213120/9TaLwmxi_bigger.png"
-                },
-                new TwitterHandle()
-                {
-                    DisplayName = "Matrix Dallas",
-                    Twitter = "@MATRIX_Dallas",
-                    ImageUri = "https://pbs.twimg.com/profile_images/3153848807/e15d4182aa3042fcd3e5fc37fd1b3cd6_bigger.png"
-                },
-                new TwitterHandle()
-                {
-                    DisplayName = "Sean Sparkman",
-                    Twitter = "@seansparkman",
-                    ImageUri = "https://pbs.twimg.com/profile_images/454656615392636928/nqyXVThx_bigger.png"
-                }
-            };
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace DFWMobile.XF.Models
 {
-    class TwitterHandle
+    public class TwitterHandle
     {
         public string DisplayName { get; set; }
         public string Twitter { get; set; }
