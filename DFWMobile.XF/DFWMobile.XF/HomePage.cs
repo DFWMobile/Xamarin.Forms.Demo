@@ -10,14 +10,32 @@ namespace DFWMobile.XF
     public class HomePage
         : ContentPage
     {
+        public Image _logo;
         public HomePage()
         {
-            Content = new Label
+            var stackLayout = new StackLayout
+            {
+                Orientation = StackOrientation.Vertical,
+                Spacing = 10
+            };
+
+            _logo = new Image
+            {
+                Source = ImageSource.FromFile("dfwmobilenet-small.png"),
+                Aspect = Aspect.AspectFit
+            };
+
+            var label = new Label
             {
                 Text = "Hello, Again!",
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
             };
+
+            stackLayout.Children.Add(_logo);
+            stackLayout.Children.Add(label);
+
+            Content = stackLayout;
         }
     }
 }
