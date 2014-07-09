@@ -36,8 +36,11 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="DashboardPage.cs" />
+    <Compile Include="TwitterHandleCell.cs" />
     <Compile Include="EntryPage.cs" />
     <Compile Include="HomePage.cs" />
+    <Compile Include="ListPage.cs" />
+    <Compile Include="Models\TwitterHandle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

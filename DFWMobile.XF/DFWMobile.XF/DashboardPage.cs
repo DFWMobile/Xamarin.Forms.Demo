@@ -14,6 +14,7 @@ namespace DFWMobile.XF
         {
             Children.Add(new HomePage());
             Children.Add(new EntryPage());
+            Children.Add(new ListPage());
         }
     }
 }
