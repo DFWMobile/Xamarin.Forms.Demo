@@ -2,7 +2,7 @@
 
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US"/>
-  <App xmlns="" ProductID="86f7de8f-3b72-4743-a91c-2738637034ed" Title="DFWMobile.XF.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="DFWMobile.XF.WinPhone author" Description="Sample description" Publisher="DFWMobile.XF.WinPhone" PublisherID="41497f26-ad3a-427b-b47c-c24f151e1278">
+  <App xmlns="" ProductID="{86f7de8f-3b72-4743-a91c-2738637034ed}" Title="DFWMobile.XF.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="DFWMobile.XF.WinPhone author" Description="Sample description" Publisher="DFWMobile.XF.WinPhone" PublisherID="{41497f26-ad3a-427b-b47c-c24f151e1278}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING"/>
