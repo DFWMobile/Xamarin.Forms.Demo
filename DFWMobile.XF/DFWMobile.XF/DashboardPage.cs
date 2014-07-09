@@ -13,7 +13,7 @@ namespace DFWMobile.XF
         public DashboardPage()
         {
             Children.Add(new HomePage());
-            Children.Add(new HomePage());
+            Children.Add(new EntryPage());
         }
     }
 }
