@@ -20,7 +20,7 @@ namespace DFWMobile.XF.Droid
 
             Xamarin.Forms.Forms.Init(this, bundle);
 
-            SetPage(App.GetMainPage());
+            SetPage(App.HomePage);
         }
     }
 }

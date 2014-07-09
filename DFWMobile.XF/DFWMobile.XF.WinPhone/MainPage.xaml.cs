@@ -20,7 +20,7 @@ namespace DFWMobile.XF.WinPhone
             InitializeComponent();
 
             Forms.Init();
-            Content = DFWMobile.XF.App.GetMainPage().ConvertPageToUIElement(this);
+            Content = DFWMobile.XF.App.HomePage.ConvertPageToUIElement(this);
         }
     }
 }

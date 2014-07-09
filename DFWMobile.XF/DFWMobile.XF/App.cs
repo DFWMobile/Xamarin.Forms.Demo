@@ -9,17 +9,10 @@ namespace DFWMobile.XF
 {
     public class App
     {
-        public static Page GetMainPage()
+        private static Page _homePage;
+        public static Page HomePage
         {
-            return new ContentPage
-            {
-                Content = new Label
-                {
-                    Text = "Hello, Forms !",
-                    VerticalOptions = LayoutOptions.CenterAndExpand,
-                    HorizontalOptions = LayoutOptions.CenterAndExpand,
-                },
-            };
+            get { return _homePage ?? (_homePage = new HomePage()); }
         }
     }
 }
