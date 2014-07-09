@@ -15,7 +15,8 @@ namespace DFWMobile.XF
         {
             var stackLayout = new StackLayout
             {
-                Orientation = StackOrientation.Vertical,
+                Orientation = StackOrientation.Horizontal,
+                HorizontalOptions = LayoutOptions.Center,
                 Spacing = 10
             };
 
