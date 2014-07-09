@@ -9,10 +9,10 @@ namespace DFWMobile.XF
 {
     public class App
     {
-        private static Page _homePage;
-        public static Page HomePage
+        private static Page _mainPage;
+        public static Page MainPage
         {
-            get { return _homePage ?? (_homePage = new HomePage()); }
+            get { return _mainPage ?? (_mainPage = new DashboardPage()); }
         }
     }
 }

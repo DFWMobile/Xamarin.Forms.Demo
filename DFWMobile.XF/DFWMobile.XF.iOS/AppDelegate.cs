@@ -31,7 +31,7 @@ namespace DFWMobile.XF.iOS
 
             window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-            window.RootViewController = App.HomePage.CreateViewController();
+            window.RootViewController = App.MainPage.CreateViewController();
 
             window.MakeKeyAndVisible();
 
