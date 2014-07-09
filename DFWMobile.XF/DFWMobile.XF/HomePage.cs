@@ -13,12 +13,7 @@ namespace DFWMobile.XF
         public Image _logo;
         public HomePage()
         {
-            var stackLayout = new StackLayout
-            {
-                Orientation = StackOrientation.Horizontal,
-                HorizontalOptions = LayoutOptions.Center,
-                Spacing = 10
-            };
+            var layout = new AbsoluteLayout();
 
             _logo = new Image
             {
@@ -31,12 +26,13 @@ namespace DFWMobile.XF
                 Text = "Hello, Again!",
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
+                BackgroundColor = Color.Red
             };
 
-            stackLayout.Children.Add(_logo);
-            stackLayout.Children.Add(label);
+            layout.Children.Add(_logo, new Point(150, 150));
+            layout.Children.Add(label, new Point(150, 350));
 
-            Content = stackLayout;
+            Content = layout;
         }
     }
 }
