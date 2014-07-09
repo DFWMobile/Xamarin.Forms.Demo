@@ -13,11 +13,14 @@ namespace DFWMobile.XF
         public Image _logo;
         public HomePage()
         {
+            Title = "Layouts";
+            Icon = "about.png";
+
             var layout = new AbsoluteLayout();
 
             _logo = new Image
             {
-                Source = ImageSource.FromFile("dfwmobilenet-small.png"),
+                Source = ImageSource.FromFile("dfwmobilenet_small.png"),
                 Aspect = Aspect.AspectFit
             };
 

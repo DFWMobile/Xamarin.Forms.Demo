@@ -123,6 +123,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.png" />
     <Content Include="Assets\AlignmentGrid.png" />
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -147,7 +148,7 @@
     <BundleResource Include="Toolkit.Content\ApplicationBar.Check.png" />
     <BundleResource Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <BundleResource Include="Toolkit.Content\ApplicationBar.Add.png" />
-    <Content Include="dfwmobilenet-small.png" />
+    <Content Include="dfwmobilenet_small.png" />
     <Content Include="README_FIRST.txt" />
   </ItemGroup>
   <ItemGroup>
