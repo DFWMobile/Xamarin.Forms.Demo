@@ -26,7 +26,13 @@ namespace DFWMobile.XF
                 Text = "Hello, Again!",
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
-                BackgroundColor = Color.Red
+                BackgroundColor = Color.Red,
+                
+                Font = Font.SystemFontOfSize(20),
+                WidthRequest = 200,
+                HeightRequest = 100,
+
+                XAlign = TextAlignment.Center,
             };
 
             layout.Children.Add(_logo, new Point(150, 150));
