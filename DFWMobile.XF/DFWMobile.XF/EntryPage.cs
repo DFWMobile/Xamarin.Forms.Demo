@@ -62,6 +62,15 @@ namespace DFWMobile.XF
             };
             layout.Children.Add(_twitter);
 
+            var button = new Button
+            {
+                Text = "Submit"
+            };
+            button.Clicked += (sender, args) =>
+            {
+                // TODO: Database Layer
+            };
+
             Content = layout;
         }
     }
